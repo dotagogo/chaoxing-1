@@ -110,7 +110,7 @@ class WechatController extends Controller
            	 //echo "<br>".$msg[$k]->answer;
     			$message .= "\r\n\r\n没有找到题目? 试试把题目输入详细点!";
     		}else {
-    			$message = "没有找到题目? 试试把题目输入详细点!";
+    			$message = "没有找到题目? 试试把题目输入详细点! \r\n或者点击<a href='https://jinshuju.net/f/kz7yoP'>反馈信息</a>, 以帮助我们为您提供更好的服务! "."     ";
     		}
     		
     		return $message;
