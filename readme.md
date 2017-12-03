@@ -1,27 +1,21 @@
-# Laravel PHP Framework
+# 超星网络课答案查询
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## 使用说明
+-- 服务于华商gis公众号
+-- 不写了。没什么好写
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## 数据的导入格式
+-- 使用 Navicat for MySQL 工具进行导入
+-- 表 右键 导入向导 xls 格式导入
+-- 如果是xlsx格式需要使用wps进行另存为操作为xls
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Api简单说明
+-- 好久没看了，好像都忘了
+-- 功能代码是在controllers\WechatController中
+-- 主要方法为 ask()
+-- 处理逻辑： 要求使用 @题目  (题目得大于5)
+-- 然后就是进行数据库查询
+-- 实现过程略冗余
+-- 好像就这个了，其他几个控制器方法是以前测试学习时留下的
 
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## 虽然我觉得没什么用 hhh
